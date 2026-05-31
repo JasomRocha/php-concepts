@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campanha publicitária</title>
+</head>
+<body>
+<ul>
+<!--    <li><a href="../Aula2_dados.php?campanha=1">Clique aqui para campanha 1</a></li>-->
+<!--    <li><a href="../Aula2_dados.php?campanha=2">Clique aqui para campanha 2</a></li>-->
+<!--    <li><a href="../Aula2_dados.php?campanha=3">Clique aqui para campanha 3</a></li>-->
+</ul>
+<h2>Envie usando o Método GET</h2>
+<br>
+<form action="../Aula4_dados.php">
+    <label for="login">Login:</label>
+    <input type="text" name="login" id="login" placeholder="Digite o login...">
+    <br>
+    <br>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" placeholder="Digite a senha...">
+    <input type="submit" value="Enviar com get">
+</form>
+
+<h2>Envie usando o Método POST</h2>
+<form action="../Aula5_dados.php" method="POST">
+    <label for="login_POST">Login:</label>
+    <input type="text" name="login" id="login_POST" placeholder="Digite o login...">
+    <br>
+    <br>
+    <label for="login_POST">Senha:</label>
+    <input type="password" name="senha" id="senha_POST" placeholder="Digite a senha...">
+    <input type="submit" value="Enviar com post">
+</form>
+</body>
+</html>
